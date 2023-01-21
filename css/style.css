@@ -1,0 +1,241 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+h1,h2,h3,h4,{
+	font-weight: 700;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/* ------------------------tinyone Header-area ------------------------- */
+.tiny-header-area{
+	background: #fcdb00;
+	padding: 60px 0;
+}
+.tiny-header-up{}
+.tiny-header-bars a i{
+	color: #010101;
+	font-size: 25px;
+}
+.tiny-header-logo{}
+.tiny-header-icon{}
+.tiny-header-icon ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.tiny-header-icon ul li{
+	padding: 0 11px;
+	font-size: 25px;
+}
+.tiny-header-icon ul li a {
+	color: #010101;
+	font-size: 25px;
+}
+.tiny-info{
+	display: none;
+}
+
+
+/* -------------------------tiny header down--------------------------------- */
+
+.tiny-header-down{}
+.tiny-slide{
+	text-align: center;
+	padding: 200px 0 120px;
+	position: relative;
+}
+.tiny-slide h2{
+	font-size: 48px;
+	font-weight: 700;
+	color: #010101;
+}
+.tiny-slide p{
+	font-size: 20px;
+	color: #313841;
+}
+.tiny-slide ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center; 
+}
+.tiny-slide ul li{
+	border: 2px solid #010101;
+	margin: 0 16px;
+	width: 70px;
+	height: 70px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%;
+}
+.tiny-slide ul li i{
+	color: #010101;
+	font-size: 35px;
+}
+.tiny-slide a{
+	text-transform: uppercase;
+	color: #2d2d2d;
+	border: 2px solid #000;
+	padding: 10px 25px;
+	border-radius: 15px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.tiny-slide a:hover{
+	background: #000;
+	color: #fff;
+}
+.tiny-slide img{
+	width: 92%;
+	position: absolute;
+	top: 8%;
+	left: 4%;
+	
+}
+.tiny-indicators{}
+.tiny-indicators button{
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+}
+.tiny-menu ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	
+}
+.tiny-menu ul li a{
+	color: #010101;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 0 10px;
+}
+
+/* ------------------------tinyone Header area end------------------------- */
+
+.tiny-feature{
+	padding: 120px 0 100px;
+	color: #fff;
+}
+.tiny-title{
+	text-align: center;
+	margin-bottom: 65px;
+}
+.tiny-title h3{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.tiny-title p{
+	font-size: 20px;
+	color: #010101;
+}
+.tiny-feature-contant{
+	padding: 45px 0;
+}
+.tiny-feature-contant h5{
+	font-size: 22px;
+	color: #010101;
+}
+.tiny-feature-contant p{
+	font-size: 16px;
+	color: #898989;
+}
+.tiny-mobile{
+	position: relative;
+}
+.tiny-mobile img{
+	width: 100%;
+}
+.tiny-mobile-icon a img{
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+/*---------------------------tiny footer area----------------------------*/
+
+.tiny-footer-area{
+	background: #010101;
+	padding: 100px 0 200px;
+}
+.tiny-footer-area .tiny-title h3{
+	color: #fcdb00;
+}
+.tiny-footer-area .tiny-title p{
+	color: #898989;
+}
+.tiny-mail{}
+.tiny-mail form{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.tiny-mail-box{
+	width: 90%;
+}
+.tiny-mail-btn{}
+.tiny-mail-btn input{
+	padding: 5px 10px;
+	background: #fcdb00;
+	color: #010101;
+	font-weight: 700;
+}
+.tiny-mail-btn input:hover{
+	background: #ffff;
+}
+/*-------------tiny footer text--------------------*/
+
+.tiny-footer-text{
+	margin-top: 120px;
+}
+.tiny-footer-text ul li,
+.tiny-footer-text ul li a{
+	color: #fff;
+}
